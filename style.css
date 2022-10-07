@@ -1,0 +1,383 @@
+h1{
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 8vh;
+    font-size: 2.5vw;
+    font-family: "Helvetica Neue", "Helvetica", Arial;
+}
+#nm{
+    font-size: 16px;
+    color: white;
+    font-weight: 100;
+    margin-left: 150px;
+
+}
+
+.row{
+
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 0;
+
+}
+
+.col-1{
+    flex-basis: 40%;
+    position: relative;
+    margin-left: 50px;
+}
+
+.col-1 h1{
+    font-size: 54px;
+    color: white;
+}
+
+.col-1 h2{
+    font-size: 30px;
+    color: white;
+    font-weight: 100;
+    margin: 60px 0 10px;
+    margin-left: 120px;
+}
+
+.col-1 p{
+    font-size: 16px;
+    color: white;
+    font-weight: 100;
+    margin-left: 240px;
+}
+
+/* ......... */
+
+.col-4{
+    flex-basis: 40%;
+    position: relative;
+    margin-left: 60px;
+}
+
+.col-4 h1{
+    font-size: 54px;
+    color: white;
+    margin-left: 50px;
+}
+
+.col-4 h2{
+    font-size: 30px;
+    color: white;
+    font-weight: 100;
+    margin: 60px 0 10px;
+    margin-left: 70px;
+}
+
+.col-4 p{
+    font-size: 16px;
+    color: white;
+    font-weight: 100;
+    margin-left: 90px;
+}
+
+.col-4::after{
+    content: '';
+    width: 10px;
+    height: 250px;
+    background: linear-gradient( #FFAF0A, #E18700);
+    position: absolute;
+    left: -40px;
+    top: 80px;
+    margin-left: 65px;
+}
+
+/* ....... */
+
+button{
+    width: 140px;
+    border: 0;
+    padding: 12px 10px;
+    outline: none;
+    color: #fff;
+    background: linear-gradient(to right, #fb5283, #ff3527);
+    border-radius: 6px;
+    transition: width 0.5s;
+    cursor: pointer;
+    margin-left: 250px;
+}
+
+#btn0{
+
+    width: 140px;
+   border: 0;
+   padding: 12px 10px;
+   outline: none;
+   color: #fff;
+   background: linear-gradient(to right, #fb5283, #ff3527);
+   border-radius: 6px;
+   transition: width 0.5s;
+   cursor: pointer;
+   margin-left: 220px;
+
+}
+
+#btn2{
+
+    width: 140px;
+    border: 0;
+    padding: 12px 10px;
+    outline: none;
+    color: #fff;
+    background: linear-gradient(to right, #fb5283, #ff3527);
+    border-radius: 6px;
+    transition: width 0.5s;
+    cursor: pointer;
+    margin-left: 1350px;
+
+}
+
+#btn3{
+
+    width: 140px;
+    border: 0;
+    padding: 12px 10px;
+    outline: none;
+    color: #fff;
+    background: linear-gradient(to right, #FFAF0A, #E18700);
+    border-radius: 6px;
+    transition: width 0.5s;
+    cursor: pointer;
+    margin-left: 1350px;
+
+}
+
+#btn4{
+
+     width: 140px;
+    border: 0;
+    padding: 12px 10px;
+    outline: none;
+    color: #fff;
+    background: linear-gradient(to right, #FFAF0A, #E18700);
+    border-radius: 6px;
+    transition: width 0.5s;
+    cursor: pointer;
+    margin-left: 160px;
+
+}
+
+button{
+    width: 140px;
+    border: 0;
+    padding: 12px 10px;
+    outline: none;
+    color: #fff;
+    background: linear-gradient(to right, #fb5283, #ff3527);
+    border-radius: 6px;
+    transition: width 0.5s;
+    cursor: pointer;
+    margin-left: 200px;
+}
+
+button img{
+    width: 30px;
+    display: none;
+}
+
+button:hover img{
+    display: block;
+}
+
+button:hover{
+    width: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.col-1::after{
+    content: '';
+    width: 10px;
+    height: 250px;
+    background: linear-gradient(#ff469f, #ff6062);
+    position: absolute;
+    left: -40px;
+    top: 80px;
+    margin-left: 65px;
+}
+
+.img-container{
+    height: 800px;
+    width: 1200px;
+    position: relative;
+    float: left;
+
+}
+
+.col-2 .prototype{
+    width: 65%;
+}
+
+.col-2{
+    margin-left: 50px;
+}
+.col-3{
+    margin-right: 40px;
+}
+.col-3 .prototype2{
+    width: 65%;
+}
+
+.col-5 .prototype2{
+    width: 65%;
+}
+
+.col-5{
+    margin-right: 40px;
+}
+
+/* .col-3::after{
+    content: '';
+    width: 50px;
+    height: 710px;
+    background: linear-gradient(#ff469f, #ff6062);
+    position: absolute;
+    left: -40px;
+    top: 0;
+    margin-left: 1525px;
+} */
+
+h3{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 1.2vw;
+
+}
+
+.Planets img{
+    width: 7vw;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+}
+
+.Planets{
+  position: absolute;
+}
+
+#UserRocket{
+    position: absolute;
+    height: 13vh;
+}
+
+.leftPlanets{
+    left: 15vw;
+}
+
+.rightPlanets{
+    left: 74vw;
+}
+
+#brownPlanet{
+    top: 5vh;
+}
+
+#earthPlanet{
+    top: 23vh;
+    left: 11vw;
+}
+
+#greenPlanet{
+    top: 41vh;
+    left: 8vw;
+}
+
+#moonPlanet{
+    top: 59vh;
+    left: 11vw;
+}
+
+#orangePlanet{
+    top: 77vh;
+}
+
+#purplePlanet{
+    top: 5vh;
+    width: 8.5vw;
+}
+
+#redPlanet{
+    top: 23vh;
+    left: 78vw;
+}
+
+#brownstripesPlanet{
+    top: 41vh;
+    left: 81vw;
+}
+
+#waterPlanet{
+    top: 59vh;
+    left: 78vw;
+}
+
+#whitePlanet{
+    top: 77vh;
+}
+
+#services{
+    position: absolute;
+    margin-top: 80vh;
+    margin-left: 35vw;
+    padding-bottom: 30vh;
+    color: whitesmoke;
+    text-align: center;
+}
+
+#services h2{
+    font-size: 3vw;
+}
+
+#services p{
+    font-size: 2vw;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/*
+body{
+    overflow: hidden;
+}
+*/
+
+
+#toServices{
+    position: absolute;
+    left: 41.5vw;
+    height: 5vh;
+    width: 15vw;
+    top: 90vh;
+    color: whitesmoke;
+    font-size: 1vw;
+}
+
+/*
+.Planets img:hover{
+    width: 8vw;
+}
+
+#purplePlanet img:hover{
+    width: 9.5vw;
+}
+*/
+
+.dl-link{
+  text-align: center;
+  font-size: 1em;
+  font-family: "Helvetica Neue", "Helvetica", Arial;
+  padding-bottom: 10px;
+}
+
+.img-column{
+  flex: 50%;
+}
